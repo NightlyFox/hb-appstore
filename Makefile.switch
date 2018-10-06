@@ -1,6 +1,6 @@
 GET		:= ./libs/get/src
 RAPIDJSON	:= ./libs/get/src/libs/rapidjson/include
-MINIZIP         := ./libs/get/src/libs/minizip
+MINIZIP         := ./libs/get/src/libs/miniz
 
 #---------------------------------------------------------------------------------
 .SUFFIXES:

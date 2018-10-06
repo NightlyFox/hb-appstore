@@ -1,9 +1,9 @@
 GET :=		libs/get/src
 RAPIDJSON :=	libs/get/src/libs/rapidjson/include
-MINIZIP :=	libs/get/src/libs/minizip
+MINIZIP :=	libs/get/src/libs/miniz
 TINYXML := libs/get/src/libs/tinyxml
 
-MINIZIP_O := zip.o ioapi.o unzip.o
+MINIZIP_O := miniz.o
 TINYXML_O := tinystr.o tinyxml.o tinyxmlerror.o tinyxmlparser.o
 
 all:
